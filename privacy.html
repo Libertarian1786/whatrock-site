@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · WhatRock</title>
+<meta name="description" content="WhatRock privacy policy.">
+<link rel="canonical" href="https://www.whatrock.app/privacy.html">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="img/icon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#173B3F">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WhatRock">
+<meta property="og:title" content="Privacy Policy · WhatRock">
+<meta property="og:description" content="WhatRock privacy policy.">
+<meta property="og:url" content="https://www.whatrock.app/privacy.html">
+<meta property="og:image" content="https://www.whatrock.app/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+<header class="bar">
+  <a class="wordmark" href="index.html"><img src="img/icon.png" alt="" width="28" height="28">WhatRock</a>
+  <nav><a href="index.html">Home</a><a href="support.html">Support</a><a href="privacy.html" aria-current="page">Privacy</a><a href="terms.html">Terms</a></nav>
+</header>
+<main>
+<h1>Privacy policy for WhatRock: Rock Identifier</h1>
+<p><em>Effective date: 22 September 2026</em></p>
+<h2>The short version</h2>
+<p>WhatRock has no accounts and no logins. Everyone gets 3 free identifications a day; after that, free users keep identifying rocks and minerals by watching a short interstitial ad from Google AdMob (see &quot;Ads&quot; below) — Premium removes ads and the daily cap entirely. Photos of specimens you scan are sent to our server to identify them and are not kept afterward. Your collection and any notes you write stay on your phone.</p>
+<h2>What we handle</h2>
+<p><strong>Specimen photos.</strong> When you scan a rock, mineral or fossil, the app sends the photo to our server. The server passes it to <strong>Anthropic&#x27;s Claude API</strong>, acting as our processor, which returns a best-guess identification — common name, class, and a confidence level (High, Medium or Low) — along with educational field notes from our own field guide. <strong>The photo itself is not retained after the request finishes.</strong> We cache the <em>result</em> — the identification and a hash (fingerprint) of the image — for up to 72 hours, so scanning the same specimen again is instant. The hash cannot be turned back into your photo.</p>
+<p><strong>A random per-install identifier.</strong> The app generates a random ID on first launch and sends it with each identification so we can apply the free daily limit and stop abuse. It is not an advertising identifier, is not shared with anyone, and is not linked to you. Deleting the app discards it.</p>
+<p><strong>A subscription token.</strong> If you subscribe, the app attaches a random, anonymous token (<code>appAccountToken</code>) to your purchase. We send it with scans so the right usage allowance applies. It does not identify you and we cannot use it to contact you.</p>
+<p><strong>No location is collected.</strong> WhatRock does not read or send your device&#x27;s location, and the app does not ask for location permission. If you type an optional &quot;where found&quot; note for a specimen, that text is written by you, is never geocoded or parsed by us, and stays on your device — see below.</p>
+<p><strong>Your collection, photos, thumbnails and notes — on-device only.</strong> Every specimen you save, its thumbnail, and any note or &quot;where found&quot; text you write are stored on your phone only. We never receive them. They are removed when you delete a saved specimen, clear your collection in Settings, or delete the app.</p>
+<h2>Ads</h2>
+<p>The free tier shows interstitial ads from <strong>Google AdMob</strong>. You get 3 free identifications a day with no ad, ever. After those, each further identification that day is preceded by one short interstitial ad — closing it lets the identification proceed, and there is no limit to how many further identifications you can unlock that way in a day. If an ad cannot be shown (no fill, offline, or the ad network is briefly unavailable), WhatRock still identifies your specimen rather than blocking you. <strong>Premium shows no ads at all.</strong> No ad ever appears on the result card, the share card, in your collection, or in the field guide.</p>
+<p>When an ad is shown, Google&#x27;s AdMob SDK runs on your device to select and display it. Per Google&#x27;s own published disclosure for the AdMob iOS SDK (<code>https://developers.google.com/admob/ios/privacy/data-disclosure</code> and <code>https://support.google.com/admob/answer/6128543</code>), the SDK may collect:</p>
+<ul>
+<li>your IP address, which may be used to estimate your general location;</li>
+<li>non-user-related crash logs;</li>
+<li>performance data such as app launch time, hang rate, or energy usage;</li>
+<li>a device identifier, such as your device&#x27;s advertising identifier;</li>
+<li>advertising data, such as which ads you have seen; and</li>
+<li>other product interactions, such as app-launch taps and ad-view interaction.</li>
+</ul>
+<p><strong>The tracking prompt.</strong> Before your first ad is ever shown, iOS asks whether WhatRock can track you across apps and websites (App Tracking Transparency). This is the only reason the app ever shows that prompt, and it only affects which ads you see — the app works identically either way. If you decline or haven&#x27;t decided, ads are requested <strong>non-personalised</strong> and your advertising identifier is not used for tracking. If you allow it, ads may be personalised using data other apps and sites share through Google&#x27;s advertising network.</p>
+<h2>What we do not do</h2>
+<ul>
+<li>We do not create accounts or ask for your name, email or address.</li>
+<li>We do not sell or share personal data.</li>
+<li>We do not collect your location, and we do not read or parse the optional &quot;where found&quot; note you type for a specimen.</li>
+<li>We do not run any third-party analytics SDK of our own. Diagnostic logging, if any, stays on the device.</li>
+<li>We do not keep your specimen photos.</li>
+<li>We do not run banner, rewarded or app-open ads, and we never show an ad before your first three identifications of the day.</li>
+</ul>
+<h2>Who else is involved</h2>
+<ul>
+<li><strong>Anthropic</strong>, through its Claude API, receives the scanned photo, acting as our processor, to identify the specimen. It processes the photo to return a result and does not use it to train models.</li>
+<li><strong>Google AdMob</strong> shows interstitial ads to free users, as described above. It never receives your specimen photos or identification results.</li>
+<li><strong>Apple</strong> handles all payments. We never see your payment details.</li>
+</ul>
+<h2>Children</h2>
+<p>WhatRock is not directed at children under 13 and we do not knowingly collect information from them. WhatRock is rated 4+ in the Education category. Free users are shown ads; those ads are requested <strong>non-personalised</strong> unless the device has granted tracking permission, as described above.</p>
+<h2>Your choices</h2>
+<p>Because we hold no account and no personal data tied to you, there is nothing for us to look up, export or delete on request. To remove everything the app holds, clear your collection in Settings or delete the app. You can revoke camera and photo library access at any time in iOS Settings; the app still works with photos you pick manually from your library.</p>
+<h2>Changes</h2>
+<p>If this policy changes materially we will update the date above and note it in the app&#x27;s release notes.</p>
+<h2>Contact</h2>
+<p>support@whatrock.app</p>
+</main>
+<footer>
+  <div class="footgrid">
+    <div>
+      <p class="wordmark-foot">WhatRock: Rock Identifier</p>
+      <p>Scan · ID · Minerals. A camera rock and mineral identifier with honest, educational field notes.</p>
+      <p>App Store (coming soon) · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+      <p><a href="mailto:support@whatrock.app">support@whatrock.app</a></p>
+    </div>
+    <div>
+      <p>WhatRock is not affiliated with, endorsed by, or sponsored by any gem laboratory, geological survey, museum, or certification service. Public sources cited in the field guide are named only to describe the specimens the app identifies.</p>
+      <p class="disclaimer">Educational identification only — not a laboratory analysis, an appraisal, or a guarantee.</p>
+      <p>&copy; 2026 David McCoy</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
